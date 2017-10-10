@@ -110,10 +110,17 @@ button {
   padding: 4px 15px;
   color: #ffffff;
 }
-h5 {
+.search-label {
   clear: both;
   font-size: .5em;
-
+  color: #ffffff;
+}
+.sl-alpha {
+  margin-left: -2px;
+}
+.sl-beta {
+  margin-left: 630px;
+  margin-right: 5px;
 }
 .search-result-nav {
   background-color: #9a1805;
@@ -184,6 +191,17 @@ h3 {
   margin: 10px 0 0 10px;
   float: left;
 }
+.sorted-nav {
+  margin: 5px 0 10px;
+}
+.sn-limits {
+  float: right;
+}
+.sn-limits span {
+  display: inline-block;
+  background-color: #ffffff;
+  margin-left: 2px;
+}
 img {
   height: 10em;
   width: 100%;
@@ -191,8 +209,8 @@ img {
 section {
   height: 10em;
   margin-bottom: 10px;
-  background-color: yellow;
 }
+
 .upper {
   height: 5em;
   background-color: #f3f4f3;
